@@ -68,9 +68,6 @@ if __name__ == '__main__':
         elif 'open youtube' in query:
             webbrowser.open('youtube.com')
 
-        elif 'open twowaits' in query:
-            webbrowser.open('http://www.twowaits.in/course.php?id=1271')
-
         elif 'the time' in query:
             strTime = datetime.datetime.now().strTime("%H:%M:%S")
             speak(f"Sir, the time is {strTime}")
